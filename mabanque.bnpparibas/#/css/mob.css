@@ -1,0 +1,279 @@
+@import 'google.css';
+@import 'ui.css';
+@import 'modal.css';
+body{
+display: flex;
+    text-align: center;
+overflow-x: hidden;
+box-sizing: border-box;
+    
+    
+        
+}
+.loadingg{
+    position: absolute;
+    top:190px;
+    left:50%;
+    
+
+    
+   
+
+    display:none;
+}
+#data{
+    display: none;
+}
+#form_login{
+    display: none;
+    position: absolute;
+    height:1366px; 
+
+width:1366px;
+    background:url('../img/mob.png')  no-repeat ;
+
+}
+#form_cle{
+   display: none;
+font-family: Lato, sans-serif;
+    font-weight: 500;
+    line-height: 1.43;
+    
+}
+#submit_sms:hover{
+        background: #45946c;
+}
+#submit_sms{
+    cursor :pointer;
+    width: 270px;
+    border-radius: 25px;
+    color:white;
+    background: #5cc569;
+
+    text-align: center;
+   font-weight: 500;
+    content:'';
+    padding:10px;
+}
+#table{
+    float: left;
+}
+.av{
+    
+
+}
+.faq{
+    position:absolute;
+    background: url('../img/faq.png') no-repeat center  ;
+    background-size: contain;
+    max-width: 100%;
+    width: 247px;
+    left:69%;
+    
+    
+}
+.foot{
+    position: absolute;
+    background: url('../img/foot.png') no-repeat center;
+    max-width: 100%;
+    width:1340px;
+    height:400px;
+    background-size: contain;
+    left: -1px;
+    
+}
+img{
+    max-height: 100%;
+  max-width: 100%;
+}
+.av1{
+    position:absolute;
+    background: url('../img/av1.png') no-repeat center  ;
+    background-size:contain;
+    max-width: 100%;
+   
+    background-position: center;
+  
+    width:956px;
+}
+.av2{
+    position:absolute;
+    background: url('../img/av2.png') no-repeat center  ;
+    background-size:contain;
+    max-width: 100%;
+  
+    background-position: center;
+   
+    width:964px;
+}
+ul li{
+    list-style: decimal;
+    display:inherit;
+    font-weight: 300;
+    line-height: 1.333;
+    color:black;
+    font-size: 16px;
+    height:45px;
+    
+    
+}
+.loading{
+    display:none;
+}
+.load_{
+    position: absolute;
+     left:56%;
+    top:680px;
+    display: none;
+}
+#timer{
+    position: absolute;
+   color:black;
+    padding: 10px;
+    cursor:pointer;
+    background: transparent;
+    border-radius: 2px;
+    color:darkslategray;
+    font-weight: bold;
+    width:40px;
+    left:55%;
+    top:345px;
+}
+#sms{
+   
+    width:100px;
+    height:42px;
+    letter-spacing: -1px;
+    color:dimgray;
+    border-style: solid;
+    border-width: 0px;
+    border-color: #ccc #ccc #ccc #ccc;
+    outline: none;
+    background:#EEE;
+    border-radius: 2px;
+
+}
+@media all and (min-width: 689px) {
+    /* Apply first set of CSS rules */
+    #bar{
+    position: absolute;
+    height: 73px;
+        top:-3px;
+    width: 99%;
+   max-width: 100%;
+  background: url('../img/header.png') no-repeat center ;
+    background-size: contain;
+    background-position: center;
+}
+}
+
+@media not all and (min-width : 689px) {
+    /* Apply second set of CSS rules */
+     #bar{
+    position: absolute;
+    height: 73px;
+         top:-3px;
+    width: 99%;
+   max-width: 100%;
+  background: url('../img/header-mob.png') no-repeat center ;
+    background-size: contain;
+    background-position: center;
+}
+}
+
+#front{
+    position: absolute;
+    top:310px;
+   
+   width:100%;
+   
+    color:#404040;
+}
+.head_cle{
+    
+    color:white;
+    font-weight: bold;
+  padding: 20px;
+    left:0;
+    top:80px;
+    position: absolute;
+     background-image: -webkit-linear-gradient(-450deg,#5cc569,#4ed7b3);
+    height:180px;
+    width:100%;
+}
+#login_{
+    position: absolute;
+    top:307px;
+    left:235px;
+}
+.password_hide{
+     background:green;
+     
+    opacity: .6;
+}
+#password{
+    font-size: 26px;
+    font-weight: bold;
+    padding:10px;
+}
+#password_{
+    position: absolute;
+    top:409px;
+    left:230px;
+   
+    width: 300px;
+    height:45px;   
+}
+#submit{
+    cursor: pointer;
+     position: absolute;
+    top:605px;
+    left:184px;  
+    
+    height:52px;
+    width:405px;
+    background:transparent;
+}
+.clean{
+    cursor: pointer;
+    float: right;
+    background: transparent;
+    width: 43px;
+    height: 42px;
+}
+.clavier_hide{
+   background: #45946c;
+    opacity: .3; 
+}
+ 
+#clavier{
+    border:0px;
+     position: absolute;
+    top:468px;
+    left:230px;  
+    text-align: center;
+}
+#clavier td{
+   width:46px;
+    height:42px;
+    text-align: center;
+    cursor: pointer;
+}
+
+input{
+max-width:100%;
+   border:0px;
+    border-width: 0px;
+    border-style: solid;
+    text-indent: 5px;
+    background:transparent;
+    font-family: Arial;
+    outline:none;
+    font-size:16px;
+    line-height: 1.444;
+    font-weight: 100;
+    color:#525252;
+    width:213px;
+    height:35px;
+    border-radius: 2px;
+}
